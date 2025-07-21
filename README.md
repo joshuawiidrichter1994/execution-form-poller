@@ -4,7 +4,7 @@ This lightweight script polls a HubSpot form every few minutes and forwards new 
 
 ---
 
-## ✅ Setup
+## Setup
 
 1. **Install Node.js** (if not already)
 2. **Clone or unzip the folder**

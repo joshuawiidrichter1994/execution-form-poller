@@ -32,13 +32,13 @@ async function pollExecutionFormSubmissions() {
           email: emailField,
           raw: submission,
         });
-        console.log(`✅ Forwarded submission from: ${emailField}`);
+        console.log(`Forwarded submission from: ${emailField}`);
       }
     }
 
     lastTimestamp = Date.now();
   } catch (error) {
-    console.error('❌ Polling failed:', error.response?.data || error.message);
+    console.error('Polling failed:', error.response?.data || error.message);
   }
 }
 
